@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ffcccb;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#featured-cats {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cat-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.cat-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.cat-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#adoption-info, #contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #ffcccb;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
